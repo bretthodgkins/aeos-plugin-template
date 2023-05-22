@@ -1,0 +1,27 @@
+{
+  "name": "aeos-plugin-template",
+  "version": "0.0.1",
+  "description": "Example plugin template for Aeos",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "author": "Brett Hodgkins",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.2.5",
+    "@types/node": "^18.11.18",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@bhodgk/aeos": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
