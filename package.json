@@ -1,6 +1,6 @@
 {
   "name": "aeos-plugin-template",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Example plugin template for Aeos",
   "main": "build/index.js",
   "scripts": {

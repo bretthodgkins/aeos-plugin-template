@@ -11,7 +11,7 @@ import {
 export class ExamplePluginTemplate implements AeosPlugin {
   name = 'Example Plugin Template';
   description = 'Example Plugin Template for Aeos';
-  version = '0.0.1';
+  version = '1.0.0';
 
   getCommands(): Command[] {
     return [
